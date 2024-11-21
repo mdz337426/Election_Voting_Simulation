@@ -1,0 +1,2 @@
+## Election Voting Simulation
+This program simulates an election process where multiple polling booths are used, and voters cast their votes for one of several candidates. The simulation is implemented using child processes in C++, where each polling booth is handled by a separate process. The program records votes for each polling booth in individual files and logs them in a global log file. After all booths complete their voting, the program tallies the votes and announces the winner.
